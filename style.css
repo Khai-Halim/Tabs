@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#tabs{
+    display: flex;
+    list-style: none;
+}
+
+#tabs li{
+    display: inline-block;
+    flex: 1;
+}
+
+#tabs li label{
+    display: block;
+    padding: 20px;
+    background: rgb(230, 230, 250);
+}
+
+#tabs input{
+    display: none; 
+}
+
+#tabs > label{
+    border: solid;
+}
+
+.tab-content{
+    display: none;
+}
+
+#tabs > input:checked{
+    color: green;
+}
+
+.wrapper{
+    width: 90%;
+    max-width: 1000px;
+    border: solid;
+    margin: 0 auto;
+}
